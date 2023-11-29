@@ -1,0 +1,92 @@
+body
+{
+    /* background-image: linear-gradient(to right, rgb(1, 61, 117) ,rgb(129, 182, 238), rgb(200, 90, 247)); */
+    background-image: linear-gradient(to right, rgb(3, 111, 212) , rgb(200, 90, 247));
+    /* background-image: rgb(200, 90, 247); */
+    /* background: aqua; */
+}
+.head{
+    text-align: center;
+    margin:20px;
+    font-size: 44px;
+    font-weight: 700;
+    text-shadow: -2px -1px 6px #ffffff;;
+    text-decoration: underline;
+    margin-bottom: 70px;
+}
+h1{
+    text-align: center;
+    
+    margin-top: 65px;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+.pass
+{
+    margin-top: 40px;
+    display: flex;
+
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#copyPassword
+{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 0px;
+    font-size: 20px;
+    padding: 5px; 
+    border:0px;
+    border-radius: 4px;
+}
+img
+{
+    background: transparent;
+    height: 25px;
+    width: 25px;
+    font-size: 20px;
+}
+.buttons
+{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.buttons button
+{
+    background-color: rgb(28, 28, 176);
+    border:0px;
+    font-size: 24px;
+    padding: 8px 12px;
+    
+}
+.buttons button:hover
+{
+    background-color: rgb(28, 28, 176);
+    border:0px;
+    
+}
+.buttons button:focus
+{
+    background-color: rgb(28, 28, 176);
+    border:0px;
+}
+#copyPassword:active
+{
+    transform: scale(0.98);
+}
+.dropdown .dropdown-menu {
+
+    --bs-dropdown-link-hover-bg:rgb(195, 194, 194);
+    --bs-dropdown-link-active-bg:rgb(49, 124, 229);
+}
+
+
